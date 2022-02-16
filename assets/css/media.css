@@ -1,0 +1,803 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+    /*
+    ====================
+     header section
+    ====================
+    */
+    
+    /* header top */
+    
+    
+    .signup-signin {
+        text-align: center !important;;
+        margin: 5px 0;
+        
+    }
+    .signup-signin li:not(:last-child){
+        margin-right: 5px;
+    }
+    .signup-signin li:last-child a{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+    /* nav */
+    nav{
+        padding: 30px 0  !important;
+    }
+    .main-menu {
+        position:fixed;
+        top:0;
+        width: 68%;
+        left: -100%;
+        background-color:#73b21a;
+        padding: 30px;
+        -webkit-transition: all .4s linear;
+        -o-transition: all .4s linear;
+        transition: all .4s linear;
+        min-height: 100vh;
+        z-index: 999;
+    }
+    .main-menu ul li a{
+        color:#FFFFFF !important;
+    }
+    .main-menu ul li:not(:last-child){
+        margin:10px 0;
+    }
+    
+    .open-menu{
+        left: 0;
+    }
+    /*
+    ====================
+     search box 
+    ====================
+    */
+    
+    .search-box{
+        min-width:280px;
+    }
+    .search-box-show{
+        top: 170%;
+    }
+    
+    
+    
+    /* land */
+    .list-content{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    
+    /* font-size */
+    .font-size-35{
+        font-size: 26px;
+    }
+    
+    
+    /*
+    ====================
+     hero section
+    ====================
+    */
+    .hero-section{
+        padding: 45px 0;
+    }
+    .hero-text h1{
+        font-size:36px;
+    }
+    .hero-text p{
+        padding-right:0;
+        margin-bottom: 35px;
+    }
+    
+    /*
+    ====================
+    Garden section
+    ====================
+    */
+    
+    .garden-section{
+        padding-top: 50px;
+        padding-bottom:55px;
+    }
+    
+    /*
+    ====================
+    lands section
+    ====================
+    */
+    .lands-section{
+        padding-top: 50px;
+        padding-bottom:55px;
+    }
+    .land-content h4 {
+        font-size: 18px !important;
+    }
+    .land-content p {
+        margin-top: 18px;
+    }
+    .open-video img{
+        width: 100%;
+    }
+    
+    
+    /*
+    ====================
+    service section
+    ====================
+    */
+    
+    .service{
+        padding-top: 50px;
+        padding-bottom:55px;
+    }
+    
+    .service-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        padding: 28px 15px;
+    }
+    
+    .service-icon{
+         margin-right: 0px;
+    }
+    
+    .service-box .service-icon span {
+        width: 50px;
+        height: 50px;
+    }
+    .service-desc h5{
+        font-size: 16px !important;
+        margin: 10px 0;
+    }
+    
+    
+    /*
+    ====================
+    counter section
+    ====================
+    */
+    .counter-section{
+        padding-top: 50px;
+        padding-bottom:55px;
+    }
+    
+    
+    /*
+    ====================
+    team section
+    ====================
+    */
+    .team-section{
+        padding-top: 50px;
+        padding-bottom:55px;
+    }
+    .team-img img{
+        width: 100%;
+    }
+    /*
+    ====================
+    team section
+    ====================
+    */
+    .gallery-section{
+        padding-top: 50px;
+        padding-bottom:55px;
+    }
+    .gallery-img img{
+        width: 100%;
+    }
+    
+    .btn-area button:not(:last-child){
+        margin-right: 10px;
+    }
+    
+    
+    /*
+    ====================
+    news section
+    ====================
+    */
+    .news-section{
+        padding-top: 50px;
+        padding-bottom:55px;
+    }
+    .news-img img{
+        width: 100%;
+    }
+    
+    
+    /*
+    ====================
+    footer section
+    ====================
+    */
+    .footer{
+        padding-top: 50px;
+        padding-bottom:55px;
+    }
+    .f-line{
+        margin-top: 55px;
+    }
+    
+    
+    /* footer bottom */
+    .copyright-text{
+        text-align: center;
+    }
+    .f-bottom-page-link ul{
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+     }
+    
+    
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      
+      
+    /*
+    ====================
+     header section
+    ====================
+    */
+    
+    /* header top */
+    .contact-info{
+        text-align: center;
+    }
+    .contact-info li:not(:last-child){
+        margin-right: 15px;
+    }
+    .signup-signin {
+        text-align: center !important;;
+        margin: 5px 0;
+    }
+    
+    /* nav */
+    
+    nav{
+        padding: 30px 0  !important;
+    }
+    .main-menu {
+        position:fixed;
+        top:0;
+        width: 60%;
+        left: -100%;
+        background-color:#73b21a;
+        padding: 30px;
+        -webkit-transition: all .4s linear;
+        -o-transition: all .4s linear;
+        transition: all .4s linear;
+        min-height: 100vh;
+        z-index: 999;
+    }
+    .main-menu ul li a{
+        color:#FFFFFF !important;
+    }
+    .main-menu ul li:not(:last-child){
+        margin:10px 0;
+    }
+    
+    .open-menu{
+        left: 0;
+    }
+    
+    /*
+    ====================
+     hero section
+    ====================
+    */
+    .hero-section{
+        padding: 45px 0;
+    }
+    .hero-text h1{
+        font-size: 41px;
+    }
+    .hero-text p{
+        padding-right:0;
+        margin-bottom: 35px;
+    }
+    
+    
+    /*
+    ====================
+    Garden section
+    ====================
+    */
+    
+    .garden-section{
+        padding-top: 60px;
+        padding-bottom:65px;
+    }
+    
+    .garden-box {
+        min-height:270px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .garden-box h3{
+        font-size: 15px;
+    }
+    
+    /*
+    ====================
+    lands section
+    ====================
+    */
+    .lands-section{
+        padding-top: 60px;
+        padding-bottom:65px;
+    }
+    
+    .open-video img{
+        width: 100%;
+    }
+    
+    /*
+    ====================
+    service section
+    ====================
+    */
+    
+    .service{
+        padding-top: 60px;
+        padding-bottom:65px;
+    }
+    
+    .service-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+        padding: 28px 10px;
+    }
+    
+    .service-icon{
+         margin-right: 0px;
+    }
+    
+    .service-box .service-icon span {
+        width: 50px;
+        height: 50px;
+    }
+    .service-desc h5{
+        font-size: 16px !important;
+        margin: 10px 0;
+    }
+    
+    
+    /*
+    ====================
+    counter section
+    ====================
+    */
+    .counter-section{
+        padding-top: 60px;
+        padding-bottom:65px;
+    }
+    
+    
+    /*
+    ====================
+    team section
+    ====================
+    */
+    .team-section{
+        padding-top: 60px;
+        padding-bottom:65px;
+    }
+    
+    
+    /*
+    ====================
+    gallery section
+    ====================
+    */
+    .gallery{
+        padding-top: 60px;
+        padding-bottom:65px;
+    }
+    .btn-area button:not(:last-child){
+        margin-right: 20px;
+    }
+    
+    
+    /*
+    ====================
+    news section
+    ====================
+    */
+    .news-section{
+        padding-top: 60px;
+        padding-bottom:65px;
+    }
+    
+    .news-desc P:first-of-type{
+        font-size: 18px;
+    }
+    
+    
+    /*
+    ====================
+    footer section
+    ====================
+    */
+    .footer{
+        padding-top: 60px;
+        padding-bottom:65px;
+    }
+    .extramargin{
+        margin-left: 40px;
+    }
+    
+    /* footer bottom */
+    .copyright-text{
+        text-align: center;
+    }
+    .f-bottom-page-link ul{
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+     }
+    
+    
+    
+    /* // Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    
+    /*
+    ====================
+     header section
+    ====================
+    */
+    
+    /* header top */
+    .contact-info{
+        text-align: center;
+    }
+    .signup-signin {
+        text-align: center !important;
+        margin: 5px 0;
+    }
+    
+    /* nav */
+    
+    nav{
+        padding: 30px 0  !important;
+    }
+    .main-menu {
+        position:fixed;
+        top:0;
+        width: 50%;
+        left: -100%;
+        background-color:#73b21a;
+        padding: 30px;
+        -webkit-transition: all .4s linear;
+        -o-transition: all .4s linear;
+        transition: all .4s linear;
+        min-height: 100vh;
+        z-index: 999;
+        
+    }
+    .main-menu ul li a{
+        color:#FFFFFF !important;
+    }
+    .main-menu ul li:not(:last-child){
+        margin:10px 0;
+    }
+    
+    .open-menu{
+        left: 0;
+    }
+    
+    
+    /*
+    ====================
+     hero section
+    ====================
+    */
+    .hero-section{
+        padding: 45px 0;
+    }
+    .hero-text h1{
+        font-size: 50px;
+    }
+    .hero-text p{
+        padding-right:0 ;
+    }
+    
+    /*
+    ====================
+    Garden section
+    ====================
+    */
+    
+    .garden-section{
+        padding-top: 70px;
+        padding-bottom:75px;
+    }
+    
+    .garden-box {
+        min-height:270px;
+    }
+    
+    /*
+    ====================
+    lands section
+    ====================
+    */
+    .lands-section{
+        padding-top: 70px;
+        padding-bottom:75px;
+    }
+    
+    .open-video img{
+        width: 100%;
+    }
+    
+    
+    /*
+    ====================
+    counter section
+    ====================
+    */
+    .counter-section{
+        padding-top: 70px;
+        padding-bottom:75px;
+    }
+    
+    /*
+    ====================
+    team section
+    ====================
+    */
+    .team-section{
+        padding-top: 70px;
+        padding-bottom:75px;
+    }
+    .team-img img{
+        width: 100%;
+    }
+    
+    /*
+    ====================
+    gallery section
+    ====================
+    */
+    .gallery{
+        padding-top: 70px;
+        padding-bottom:75px;
+    }
+    .btn-area button:not(:last-child){
+        margin-right: 40px;
+    }
+    
+    
+    /*
+    ====================
+    news section
+    ====================
+    */
+    .news-section{
+        padding-top: 70px;
+        padding-bottom:75px;
+    }
+    
+    
+    /*
+    ====================
+    footer section
+    ====================
+    */
+    .footer{
+        padding-top: 70px;
+        padding-bottom:75px;
+    }
+    .extramargin{
+        margin-left: 50px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    
+    
+    /*
+    ====================
+     header section
+    ====================
+    */
+    
+    /* header top */
+    .contact-info li:not(:last-child){
+        margin-right: 20px;
+    }
+    
+    /* nav  */
+    .main-menu ul li:not(:last-child){
+        margin-right: 30px;
+    }
+    
+    /*
+    ====================
+     hero section
+    ====================
+    */
+    
+    .hero-text h1{
+        font-size: 46px;
+    }
+    .hero-text p{
+        padding-right:0 ;
+    }
+    
+    /*
+    ====================
+    Garden section
+    ====================
+    */
+    
+    .garden-section{
+        padding-top: 80px;
+        padding-bottom:85px;
+    }
+    
+    .garden-box {
+        min-height: 273px;
+    }
+    
+    
+    /*
+    ====================
+    lands section
+    ====================
+    */
+    .lands-section{
+        padding-top: 80px;
+        padding-bottom:85px;
+    }
+    
+    .list-content ul:first-of-type{
+        margin-right: 30px;
+    }
+    
+    
+    /*
+    ====================
+    service section
+    ====================
+    */
+    .service{
+        padding-top: 80px;
+        padding-bottom:85px;
+    }
+    .service-icon{
+        margin-right: 5px;
+    }
+    .service-box {
+        padding: 25px 10px;
+    }
+    .service-box .service-icon span {
+        width: 50px;
+        height: 50px;
+    }
+    .service-desc h5{
+        font-size: 16px !important;
+    }
+    
+    /*
+    ====================
+    counter section
+    ====================
+    */
+    .counter-section{
+        padding-top: 80px;
+        padding-bottom:85px;
+    }
+    
+    .counter-item p:last-of-type{
+        font-size: 16px;
+    }
+    
+    /*
+    ====================
+    team section
+    ====================
+    */
+    .team-section{
+        padding-top: 80px;
+        padding-bottom:85px;
+    }
+    
+    /*
+    ====================
+    gallery section
+    ====================
+    */
+    .gallery{
+        padding-top: 80px;
+        padding-bottom:85px;
+    }
+    
+    /*
+    ====================
+    news section
+    ====================
+    */
+    .news-section{
+        padding-top: 80px;
+        padding-bottom:85px;
+    }
+    
+    /*
+    ====================
+    footer section
+    ====================
+    */
+    .footer{
+        padding-top: 80px;
+        padding-bottom:85px;
+    }
+    .footer-content h3:first-of-type{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    
+    
+    
+    }
+    
+    
+    
+    
+    /* // x-Large devices (desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+    
+     }
+    
+    /* //  Extra Extra large devices (large desktops, 1200px and up) */
+    /* @media (min-width: 1400px) {
+    
+    
+    
+        and (max-width: 1399.98px) 
+    
+    
+     } */
